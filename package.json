@@ -4,17 +4,27 @@
   "description": "An API REST using express.js",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleDeAlvino/express_workshop.git"
+  },
   "keywords": [
-    "api",
-    "rest",
+    "node",
     "express",
-    "node.js"
+    "jwt",
+    "mysql"
   ],
   "author": "Ale De Alvino",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleDeAlvino/express_workshop.git/issues"
+  },
+  "homepage": "https://github.com/AleDeAlvino/express_workshop.git#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
   }
 }
